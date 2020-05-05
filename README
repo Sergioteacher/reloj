@@ -1,0 +1,5 @@
+Bueno, este reloj necesita que se pueda configutar una alarma (sólo mientras está la pestaña activa en el navegador).
+Mi intento es que una función compare lo que está pasando en el "display" y lo compare con el "input" del usuario. 
+Si coinciden, la funcion imprime una alerta. 
+Mi intento no funcionó. Alguna idea?
+Sólo sé usar un poco de Vanilla JavaScript.  
