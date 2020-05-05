@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="reloj.css">
+<script type="text/javascript">
+</script> 
+<title></title>
+</head>
+<body>
+<div id="caja">
+	<div id="fechayhora">
+		<ul class="tiempo">
+			<li id="hora">00</li>
+			<p>:</p>		
+			<li id="min">00</li>
+			<p>:</p>
+			<li id="sec">00</li>
+		</ul>	
+		<div class="muestraDia">
+		<p id="Fecha"></p>
+		</div>
+	</div>
+</div>
+<div id="alarma">
+
+</div>
+<fieldset>
+<legend>Alarma</legend>
+<label for="horaAlarma">Hora</label>
+<input type="number" id="horaAlarma" name="horaAlarma" min="00" max="23">
+<label for="horaAlarma">Minutos</label>
+<input type="number" id="minAlarma" min="00" max="59">
+<button id="btn">Activar</button>
+</fieldset>
+
+
+
+<script type="text/javascript" src="reloj.js">
+
+</script>
+
+<script type="text/javascript" src="alarma.js">
+
+</script>
+</body>
+</html>
