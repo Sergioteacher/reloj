@@ -1,3 +1,5 @@
+/*Esto no anda:*/
+
 var horaReloj = document.getElementById("hora"),
 	 minReloj = document.getElementById("min"),
 	 horaAlarma = document.getElementById("horaAlarma"),
