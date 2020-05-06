@@ -184,7 +184,8 @@ font-size: 1em;
 height: 50vw;
 
 }
-.button, .tenue {width: 100%}
+.button, .tenue {width: 100%;
+	  margin-top: 0.5em; }
 .cajaAlarma{width: 100%;
 margin:0;}
 form{width: 100%;
