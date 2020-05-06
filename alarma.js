@@ -5,7 +5,7 @@ Artista: http://incompetech.com/ */
 
 var btn = document.getElementById("button"),
 	done = document.getElementById("done"),
-	 settings = document.getElementById("setear");
+	settings = document.getElementById("setear");
 
 function verAlarma () {
 settings.className = "seve";
@@ -55,8 +55,11 @@ segundos = parseInt("0" + segundos);
 if (horas == horaInput && minutos == minInput && segundos == 00 ) {
 	sonido.play();
 	window.alert("HORA!");
-	
-}
 }
 
-setInterval(alarma, 1000);
+document.onkeydown = sonido.pause();
+
+
+}
+
+setInterval(alarma, 1000);	

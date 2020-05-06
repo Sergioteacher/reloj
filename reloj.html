@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="reloj.css">
+<script type="text/javascript">
+</script> 
+<title></title>
+</head>
+<body>
+<div id="caja">
+	<div id="fechayhora">
+		<ul class="tiempo">
+			<li id="hora"></li>
+			<p>:</p>		
+			<li id="min"></li>
+			<p>:</p>
+			<li id="sec"></li>
+		</ul>	
+		<div class="muestraDia">
+		<p id="Fecha"></p>
+		</div>
+	</div>
+</div>
+		<div class="config">
+			<button class="button" id="button">Configurar Alarma</button>
+			<div id="setear" class="noseve">
+					<fieldset class="cajaAlarma">
+						<legend>Alarma</legend>
+						<form>
+						<label for="horita">Hs.</label>
+						<input name="horita" type="number" min="00" max="23" id="horaAlarma">
+						<label for="minutos">Min.</label>
+						<input name="minutos"type="number" min="00" max="59" id="minutoAlarma">
+						</form>
+						<button class="button" id="done">Hecho</button>
+					</fieldset>
+				<audio id="audio" src="Heroic_Reception.mp3" controls=""></audio>
+		</div>
+		</div>
+		
+		
+<footer>Desarrollado por <a href="http://angelmlucero.com.ar">http://angelmlucero.com.ar</a> | Heroic Reception (la canción de la alarma) 
+de Kevin MacLeod está autorizada bajo la licencia Creative Commons Attribution <br>
+<a href="Fuente: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100206">Fuente: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100206</a>
+Artista: http://incompetech.com/ </footer>
+
+
+<script type="text/javascript" src="reloj.js">
+
+</script>
+
+<script type="text/javascript" src="alarma.js">
+
+</script>
+</body>
+</html>
