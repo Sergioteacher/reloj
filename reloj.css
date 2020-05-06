@@ -1,0 +1,236 @@
+@font-face {
+font-family: "The Led Display St";
+src: url("fonts/led.ttf");
+}
+
+
+body {
+background-color: #0C0C0C;
+color: whitesmoke;
+}
+
+#caja {background-color: #1A1A1A;
+background-image: url("textura.png");
+text-align: center;
+		width: 44em;
+		height: 20em;
+		color: whitesmoke;
+		border-radius: 2em;
+		box-shadow: 2px 3px 5px #333333 inset, 3px 3px 2px black;
+		margin: auto;
+		margin-bottom:2%;
+		padding: 0;
+		}
+		
+		
+.cajaAlarma{
+background-color: #1A1A1A;
+background-image: url("textura.png");
+text-align: center;
+		color: whitesmoke;
+		border-radius: 2em;
+		box-shadow: 2px 3px 5px #333333 inset, 3px 3px 2px black;
+		margin: 2% 20%;
+		padding: 0;
+		outline: none;
+		}	
+
+.noseve{
+visibility: hidden;
+}
+
+.tenue{
+opacity: 0.3;
+font-family: sans-serif;
+font-weight: bolder;
+color:#26A9DF;
+text-shadow: 1px 1px 2px navy;
+background-color: #1A1A1A;
+border-color: aqua;
+padding: 0.5em;
+transition: opacity 1s ease;
+}
+
+.seve{
+visibility: visible;
+animation: venga 3s ease;
+}
+
+
+
+
+
+
+.config{
+text-align: center;
+width: 100%;
+}
+
+.button{
+font-family: sans-serif;
+font-weight: bolder;
+color:#26A9DF;
+text-shadow: 1px 1px 2px navy;
+background-color: #1A1A1A;
+border-color: aqua;
+padding: 0.5em;
+}
+
+fieldset{
+
+margin-top: 1em;}
+
+form{
+width: 50%;
+float: left;}
+
+
+fieldset, fieldset legend, label{
+border-color: #061728;
+font-family: sans-serif;
+color: #66F9FC;
+text-shadow: 2px 1px 2px slategray;
+
+}
+
+label{
+margin-left: 2em;}
+
+input{
+background-color: black;
+color: white;
+font-weight: bolder;
+font-size: 1.3em;
+font-family: sans-serif;
+width: 3em;
+border: none;
+}
+
+
+
+.tiempo{
+text-align: center;
+background-image: linear-gradient(130deg, black, black, #061728, black, black, black, black);
+margin-top: 1.8em;
+border-radius: 1em;
+padding: 1em;
+box-shadow: -2px -2px 5px #1E1E1E inset;
+
+
+}
+
+ul, ul li, ul p {
+	font-family: "The Led Display St", monospace;
+	font-size: 2em;
+	display: inline-block;
+	color: #60C1F7;
+	text-shadow: 1px 1px 1px #1DFFDA;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+.muestraDia{
+
+background-size: 73%;
+background-repeat: no-repeat;
+background-color: rgba(0, 0, 0, 0.6);
+font-family: sans-serif;
+color: turquoise;
+text-shadow: 1px 1px 2px navy;
+font-size: 1em;
+padding: 0;
+border-radius: 4px;
+margin-top: 1em;
+
+}
+
+.muestraDia p{
+	font-family: sans-serif;
+position: relative;
+animation: titilar 3s linear infinite alternate;
+margin: 0;
+padding: 0;
+
+}
+
+footer{
+font-size: 0.5em;
+font-family: sans-serif;
+color: #4D4D4D;
+text-align: center;
+}
+footer a{
+text-decoration: none;
+color: #635B5B;
+}
+
+audio{
+display: none;
+}
+
+
+
+@media only screen and (max-width:800px){
+	
+#caja{ width: 100%;
+margin: 0;
+padding: 0;
+font-size: 1em;
+height: 50vw;
+
+}
+.button, .tenue {width: 100%}
+.cajaAlarma{width: 100%;
+margin:0;}
+form{width: 100%;
+display: inline-block;}
+
+}
+
+ul, ul li, ul p {
+	font-family: "The Led Display St", monospace;
+	font-size: 1.5em;
+	display: inline-block;
+	color: #60C1F7;
+	text-shadow: 1px 1px 1px #1DFFDA;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+#fechayhora{
+width: 90%;
+margin:auto;
+}
+
+.tiempo{
+width: 90%;
+}
+
+#done{
+margin-top: 1em;
+}
+
+
+
+
+
+@keyframes titilar {
+0%{text-shadow: 1px 1px 2px black;
+
+}
+100%{text-shadow:1px 1px 2px #C300FF;
+
+}
+
+
+@keyframes venga{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
