@@ -227,11 +227,8 @@ margin-top: 1em;
 
 
 @keyframes titilar {
-0%{text-shadow: 1px 1px 2px black;
-
-}
-100%{text-shadow:1px 1px 2px #C300FF;
-
+0%{text-shadow: 1px 1px 2px black;}
+100%{text-shadow:1px 1px 2px #C300FF;}
 }
 
 
