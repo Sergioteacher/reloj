@@ -57,6 +57,13 @@ animation: venga 3s ease;
 }
 
 
+@keyframes venga{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+
+
 
 
 
@@ -229,11 +236,5 @@ margin-top: 1em;
 @keyframes titilar {
 0%{text-shadow: 1px 1px 2px black;}
 100%{text-shadow:1px 1px 2px #C300FF;}
-}
-
-
-@keyframes venga{
-0%{opacity: 0;}
-100%{opacity: 1;}
 }
 
