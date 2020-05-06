@@ -11,29 +11,33 @@
 <div id="caja">
 	<div id="fechayhora">
 		<ul class="tiempo">
-			<li id="hora">00</li>
+			<li id="hora"></li>
 			<p>:</p>		
-			<li id="min">00</li>
+			<li id="min"></li>
 			<p>:</p>
-			<li id="sec">00</li>
+			<li id="sec"></li>
 		</ul>	
 		<div class="muestraDia">
 		<p id="Fecha"></p>
 		</div>
 	</div>
 </div>
-<div id="alarma">
-
-</div>
-<fieldset>
-<legend>Alarma</legend>
-<label for="horaAlarma">Hora</label>
-<input type="number" id="horaAlarma" name="horaAlarma" min="00" max="23">
-<label for="horaAlarma">Minutos</label>
-<input type="number" id="minAlarma" min="00" max="59">
-<button id="btn">Activar</button>
-</fieldset>
-
+		<div class="config">
+			<button class="button" id="button">Configurar Alarma</button>
+			<div id="setear" class="noseve">
+					<fieldset class="cajaAlarma">
+						<legend>Alarma</legend>
+						<form>
+						<label for="horita">Hs.</label>
+						<input name="horita" type="number" min="00" max="23" id="horaAlarma">
+						<label for="minutos">Min.</label>
+						<input name="minutos"type="number" min="00" max="59" id="minutoAlarma">
+						</form>
+						<button class="button" id="done">Hecho</button>
+					</fieldset>
+				<audio id="audio" src="Heroic_Reception.mp3" controls=""></audio>
+		</div>
+		</div>
 
 
 <script type="text/javascript" src="reloj.js">

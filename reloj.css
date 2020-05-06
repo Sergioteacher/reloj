@@ -9,17 +9,107 @@ background-color: #0C0C0C;
 color: whitesmoke;
 }
 
-#caja{background-color: #1A1A1A;
+#caja {background-color: #1A1A1A;
 background-image: url("textura.png");
 text-align: center;
-		width: 800px;
-		height: 350px;
+		width: 44em;
+		height: 20em;
 		color: whitesmoke;
 		border-radius: 2em;
 		box-shadow: 2px 3px 5px #333333 inset, 3px 3px 2px black;
-		margin-left: 20%;
+		margin: auto;
+		margin-bottom:2%;
 		padding: 0;
 		}
+		
+		
+.cajaAlarma{
+background-color: #1A1A1A;
+background-image: url("textura.png");
+text-align: center;
+		color: whitesmoke;
+		border-radius: 2em;
+		box-shadow: 2px 3px 5px #333333 inset, 3px 3px 2px black;
+		margin: 2% 20%;
+		padding: 0;
+		outline: none;
+		}	
+
+.noseve{
+visibility: hidden;
+}
+
+.tenue{
+opacity: 0.3;
+font-family: sans-serif;
+font-weight: bolder;
+color:#26A9DF;
+text-shadow: 1px 1px 2px navy;
+background-color: #1A1A1A;
+border-color: aqua;
+padding: 0.5em;
+transition: opacity 1s ease;
+}
+
+.seve{
+visibility: visible;
+animation: venga 3s ease;
+}
+
+@keyframes venga{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+
+
+
+
+.config{
+text-align: center;
+}
+
+.button{
+font-family: sans-serif;
+font-weight: bolder;
+color:#26A9DF;
+text-shadow: 1px 1px 2px navy;
+background-color: #1A1A1A;
+border-color: aqua;
+padding: 0.5em;
+}
+
+fieldset{
+
+margin-top: 1em;}
+
+form{
+width: 50%;
+float: left;}
+
+
+fieldset, fieldset legend, label{
+border-color: #061728;
+font-family: sans-serif;
+color: #66F9FC;
+text-shadow: 2px 1px 2px slategray;
+
+}
+
+label{
+margin-left: 2em;}
+
+input{
+background-color: black;
+color: white;
+font-weight: bolder;
+font-size: 1.3em;
+font-family: sans-serif;
+width: 3em;
+border: none;
+}
+
+
 
 .tiempo{
 text-align: center;
@@ -45,7 +135,7 @@ ul, ul li, ul p {
 
 }
 
-.muestraDia {
+.muestraDia{
 
 background-size: 73%;
 background-repeat: no-repeat;
@@ -69,6 +159,9 @@ padding: 0;
 
 }
 
+audio{
+display: none;
+}
 
 @keyframes titilar {
 0%{text-shadow: 1px 1px 2px black;
